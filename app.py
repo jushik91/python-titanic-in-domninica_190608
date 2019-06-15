@@ -77,6 +77,5 @@ def move_titanic(path):
     return render_template('{}.html'.format(path))
 
 
-
 if __name__ == '__main__':
     app.run()
