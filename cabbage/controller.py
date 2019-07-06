@@ -8,6 +8,8 @@ class CabbageController:
         self.max = max_temp
         self.rain = rain_fall
 
+        
+
     def service(self):
         X = tf.placeholder(tf.float32, shape=[None, 4])
         W = tf.Variable(tf.random_normal([4,1]), name = 'weight')
